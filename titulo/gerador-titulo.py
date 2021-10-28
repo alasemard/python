@@ -1,6 +1,4 @@
 # gerador Titulo de Eleitor em Python
-# sequencialTitulo = [0, 1, 5, 3, 5, 1 ,3, 2]
-# seqUf = [2, 0]
 
 import random
 
@@ -82,7 +80,6 @@ for i in range(quantidadeDeTitulosASeremGerados):
 	else:
 		seq2 = seqUf.copy()
 
-#	seq2 = seqUf.copy()
 	seq2.append(dv1)
 	for i in range(len(seq2)):
 		seq2[i] = seq2[i]*(i+7)
